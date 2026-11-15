@@ -6,7 +6,8 @@
     "resources": [
       "alignment.sam",
       "unknown-reference.sam",
-      "unmapped.sam"
+      "unmapped.sam",
+      "partial.sam"
     ],
     "behavior": "standard",
     "description": "测序样本资料接入：standard"
@@ -18,7 +19,8 @@
     "resources": [
       "alignment.sam",
       "unknown-reference.sam",
-      "unmapped.sam"
+      "unmapped.sam",
+      "partial.sam"
     ],
     "behavior": "unknown-reference",
     "description": "测序样本资料接入：unknown-reference"
@@ -30,19 +32,21 @@
     "resources": [
       "alignment.sam",
       "unknown-reference.sam",
-      "unmapped.sam"
+      "unmapped.sam",
+      "partial.sam"
     ],
     "behavior": "unmapped",
     "description": "测序样本资料接入：unmapped"
   },
   {
     "id": "partial-mate",
-    "entry": "alignment.sam",
+    "entry": "partial.sam",
     "version": "source-v1",
     "resources": [
       "alignment.sam",
       "unknown-reference.sam",
-      "unmapped.sam"
+      "unmapped.sam",
+      "partial.sam"
     ],
     "behavior": "partial-mate",
     "description": "测序样本资料接入：partial-mate"
