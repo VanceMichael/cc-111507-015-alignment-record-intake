@@ -7,7 +7,10 @@
       "alignment.sam",
       "unknown-reference.sam",
       "unmapped.sam",
-      "partial.sam"
+      "partial.sam",
+      "split-r1.sam",
+      "split-r2.sam",
+      "broken.sam"
     ],
     "behavior": "standard",
     "description": "测序样本资料接入：standard"
@@ -20,7 +23,10 @@
       "alignment.sam",
       "unknown-reference.sam",
       "unmapped.sam",
-      "partial.sam"
+      "partial.sam",
+      "split-r1.sam",
+      "split-r2.sam",
+      "broken.sam"
     ],
     "behavior": "unknown-reference",
     "description": "测序样本资料接入：unknown-reference"
@@ -33,7 +39,10 @@
       "alignment.sam",
       "unknown-reference.sam",
       "unmapped.sam",
-      "partial.sam"
+      "partial.sam",
+      "split-r1.sam",
+      "split-r2.sam",
+      "broken.sam"
     ],
     "behavior": "unmapped",
     "description": "测序样本资料接入：unmapped"
@@ -46,9 +55,44 @@
       "alignment.sam",
       "unknown-reference.sam",
       "unmapped.sam",
-      "partial.sam"
+      "partial.sam",
+      "split-r1.sam",
+      "split-r2.sam",
+      "broken.sam"
     ],
     "behavior": "partial-mate",
     "description": "测序样本资料接入：partial-mate"
+  },
+  {
+    "id": "split-mates",
+    "entry": "split-r1.sam",
+    "version": "source-v1",
+    "resources": [
+      "alignment.sam",
+      "unknown-reference.sam",
+      "unmapped.sam",
+      "partial.sam",
+      "split-r1.sam",
+      "split-r2.sam",
+      "broken.sam"
+    ],
+    "behavior": "split-mates",
+    "description": "测序样本资料接入：split-mates"
+  },
+  {
+    "id": "unparseable",
+    "entry": "broken.sam",
+    "version": "source-v1",
+    "resources": [
+      "alignment.sam",
+      "unknown-reference.sam",
+      "unmapped.sam",
+      "partial.sam",
+      "split-r1.sam",
+      "split-r2.sam",
+      "broken.sam"
+    ],
+    "behavior": "unparseable",
+    "description": "测序样本资料接入：unparseable"
   }
 ]
